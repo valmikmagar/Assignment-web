@@ -3,6 +3,7 @@ import axios from 'axios';
 const Api_Url='http://localhost:9791/ecommerce';
 
 //category
+
 export const addCategory=(category)=>{
  return axios.post(`${Api_Url}/saveCategory`,category);
 } 
@@ -22,12 +23,7 @@ export const  deleteCategoryById=(id)=>{
   return axios.put(`${Api_Url}/updateCategory/${id}`,category);
  } 
 
-
-
-
-
  // subCategory
-
 
  export const addSubCategory=(SubCategory)=>{
  return axios.post(`${Api_Url}/saveSubCategory`,SubCategory);
@@ -93,3 +89,5 @@ export const updateProduct = (id, formData) => {
     },
   });
 };
+
+

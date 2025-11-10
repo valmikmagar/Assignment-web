@@ -85,7 +85,7 @@ const handleEdit = (id) => {
               <th scope="col">ID</th>
               <th scope="col">Category Name</th>
               <th scope="col">Action</th>
-            </tr>
+            </tr> 
           </thead>
           <tbody>
          {category1.map((p)=>
@@ -105,4 +105,7 @@ const handleEdit = (id) => {
     </>
   );
 }
+
+
+
 

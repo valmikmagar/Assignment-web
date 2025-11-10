@@ -28,21 +28,8 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link active" to="/user">Home</Link>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Categories
-              </a>
-              <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Men</a></li>
-                <li><a className="dropdown-item" href="#">Women</a></li>
-                <li><a className="dropdown-item" href="#">Kids</a></li>
-              </ul>
+            <li className="nav-item ">
+              <Link className="nav-link active" to="/user/category">Category</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" to="/user/about">About Us</Link>

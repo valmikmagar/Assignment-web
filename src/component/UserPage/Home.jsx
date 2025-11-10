@@ -30,10 +30,10 @@ export default function Home(){
   </div>
 
   {/* Slides */}
-  <div className="carousel-inner">
+  <div className="carousel-inner mt-5">
     <div className="carousel-item active position-relative">
       <img
-        src="https://th.bing.com/th/id/OIP.rKQIJWgBlR-MZkisqhuXpwHaC2?w=984&h=378&rs=1&pid=ImgDetMain"
+        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-sale-banner-template-design-389dc7a74f096738d1d425314404a2cd_screen.jpg?ts=1605613724"
         className="d-block w-100"
         alt="Slide 1"
         style={{ height: "450px", objectFit: "cover" }}

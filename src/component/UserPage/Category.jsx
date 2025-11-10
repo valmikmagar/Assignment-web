@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
 export default function Category(){
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
@@ -32,4 +31,12 @@ export default function Category(){
       </select>
     </div>
   );
+
 }
+
+
+
+
+
+
+
